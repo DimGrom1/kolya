@@ -1,0 +1,64 @@
+.container{
+    width: 70%;
+    margin: auto;
+}
+body{
+    background: url(fon.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+.skils{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.info{
+    background: white;
+    float: right;
+    width: 70%;
+    border-radius: 25px;
+}
+.interests img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.img img{
+    float: left;
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    object-position:right;
+    border-radius: 25px;
+}
+li{
+    margin-top: 10px;
+}
+ul{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.div p{
+    display: block;
+    text-align: center;
+    /* background: rosybrown ; */
+}
+.div{
+    width: calc(100%/3);
+    /* background-color: blue; */
+    text-align: center;
+    /* background: blue; */
+    margin: auto;
+    float: left;
+    /* display: inline-block; */
+    /* margin: 10px 50px; */
+    /* background:royalblue ; */
+}
